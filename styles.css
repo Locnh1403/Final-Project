@@ -13,8 +13,8 @@
 
 body {
   margin: 0 auto;
-  width: 80%;
-  margin-top: 5rem;
+  /* width: 80%; */
+  /* margin-top: 5rem; */
 }
 
 /* Navbar Section */
@@ -298,15 +298,15 @@ body {
   margin-bottom: 2rem;
 }
 
-form{
+form {
   z-index: 10;
 }
 
-input::placeholder{
+input::placeholder {
   font-size: 1rem;
 }
 
-.form__wrap input{
+.form__wrap input {
   padding: 1rem 1.5rem;
   outline: none;
   border: none;
@@ -317,30 +317,55 @@ input::placeholder{
 }
 
 /* Footer Section */
-.footer{
+.footer {
   padding: 5rem;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
   color: var(--white);
   background: var(--black);
 }
 
-.footer__desc{
+.footer__desc {
   padding: 0 2rem;
 }
 
-.footer__desc h1{
+.footer__desc h1 {
   margin-bottom: 2rem;
   color: var(--orange);
   font-size: 1.5rem;
 }
 
-.footer__desc p{
+.footer__desc p {
   margin-bottom: 1rem;
 }
 
-#phone{
-  
+.footer__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
+#phone {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--orange);
+}
 
+.footer__links {
+  padding: 0 2rem;
+}
+
+.footer__title {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  color: var(--orange);
+}
+
+.footer__link {
+  font-size: 35px;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--white);
+}
+
+.footer__link:hover{
+color: var(--orange);
+}
